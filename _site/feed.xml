@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+<channel>
+    <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
+    <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed/" rel="self"/>
+    <link>http://jekyllrb.com</link>
+    <pubDate>Fri, 28 Mar 2014 15:07:04 -0400</pubDate>
+    <lastBuildDate>Fri, 28 Mar 2014 15:07:04 -0400</lastBuildDate>
+    <language>en-US</language>
+    <description>Transform your plain text into static websites and blogs.</description>
+    
+    <item>
+        <title>NEWS</title>
+        <link>http://jekyllrb.com/news/2014/03/28/jekyll-1-1-1-released/</link>
+        <pubDate>Fri, 28 Mar 2014 03:08:38 -0400</pubDate>
+        <dc:creator>YM</dc:creator>
+        <category>release</category>
+        <guid isPermaLink="false">/news/2014/03/28/jekyll-1-1-1-released</guid>
+        <description><![CDATA[ <p><a href="http://wiki.emsym.com/wiki/Jazz">嵌入式大讲堂</a>是内容开放的嵌入式系统学习网站。目前包含一系列嵌入式基础课程、以及处理器和开发板的使用文档。它基于维基百科平台，任何人都能够编辑它的内容。</p>
+
+<p><a href="http://www.embedded-diy.com/forum-24-1.html">嵌入式DIY爱好者</a>社区是嵌入式工程师技术分享、生活畅谈之处。开设有“组团DIY”、“电子技术交流”、“嵌入式操作系统”等专区，常有嵌入式达人出没其中</p>
+
+<p>Community and custom plugins extending the <code>Liquid::Drop</code> inadvertently disclose some system information such as directory structure or software configuration to users with access to the Liquid templating system.</p>
+
+<p>We recommend you upgrade to Jekyll v1.0.4 immediately if you use <code>Liquid::Drop</code> plugins on your Jekyll site.</p>
+
+<p><img src="/assets/wifi_large.png" alt="picture" /></p>
+
+<p><a href="/assets/code.txt">download TXT</a></p>
+
+<p>Many thanks for <a href="http://github.com/benbalter">Ben Balter</a> for alerting us to the problem and <a href="/assets/process.png">picture</a></p> ]]></description>
+    </item>
+    
+    <item>
+        <title>Jekyll 1.1.1 Released</title>
+        <link>http://jekyllrb.com/news/2013/07/24/jekyll-1-1-1-released/</link>
+        <pubDate>Wed, 24 Jul 2013 16:24:14 -0400</pubDate>
+        <dc:creator>parkr</dc:creator>
+        <category>release</category>
+        <guid isPermaLink="false">/news/2013/07/24/jekyll-1-1-1-released</guid>
+        <description><![CDATA[ <p>Coming just 10 days after the release of v1.1.0, v1.1.1 is out with a patch for the nasty excerpt inception bug (<a href="https://github.com/jekyll/jekyll/issues/1339">#1339</a>) and non-zero exit codes for invalid commands (<a href="https://github.com/jekyll/jekyll/issues/1338">#1338</a>).</p>
+
+<p>To all those affected by the <a href="https://github.com/jekyll/jekyll/issues/1321">strange excerpt bug in v1.1.0</a>, I’m sorry. I think we have it all patched up and it should be deployed to <a href="http://pages.github.com">GitHub Pages</a> in the next couple weeks. Thank you for your patience!</p>
+
+<p>If you’re checking out v1.1.x for the first time, definitely check out <a href="https://github.com/jekyll/jekyll/releases/tag/v1.1.0">what shipped with v1.1.0!</a></p>
+
+<p>See the <a href="https://github.com/jekyll/jekyll/releases/tag/v1.1.1">GitHub Release</a> page for more a more detailed changelog for this release.</p> ]]></description>
+    </item>
+    
+    <item>
+        <title>123</title>
+        <link>http://jekyllrb.com/news/2012/03/27/web/</link>
+        <pubDate>Tue, 27 Mar 2012 03:08:38 -0400</pubDate>
+        <dc:creator>Admin</dc:creator>
+        <category>release</category>
+        <guid isPermaLink="false">/news/2012/03/27/web</guid>
+        <description><![CDATA[ 1234kjfadlfkja;ldfjalkdfjdklfjadsklfhh98y3ehkujdshfkjdsfhdkjf,1234kjfadlfkja;
+ldfjalkdfjdklfjadsklfhh98y3ehkujdshfkjdsfhdkjf,1234kjfadlfkja;ldfjalkdfjdklfj
+adsklfhh98y3ehkujdshfkjdsfhdkjf
+ ]]></description>
+    </item>
+    
+</channel>
+</rss>

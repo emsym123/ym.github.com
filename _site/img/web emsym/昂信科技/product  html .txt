@@ -1,0 +1,747 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xml:lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head>
+  <base href="http://www.emsym.com/index.php/zh/products/development-board/14-jazz-imx233/6.html" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="EMSYM, 昂信, embedded system, 嵌入式, 开发板,评估, 解决方案, 委托, 设计, 教学, 学习, 系统,苏州, 江苏, HMI" />
+  <meta name="rights" content="" />
+  <meta name="language" content="zh-CN" />
+  <meta name="title" content="Jazz i.MX233 手持设备开发板" />
+  <meta name="description" content="EMSYM 昂信 - 做最开放的嵌入式系统开发平台" />
+  <meta name="generator" content="Joomla! 1.6 - Open Source Content Management" />
+  <title>Jazz i.MX233 手持设备开发板</title>
+  <link href="/templates/emsym/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/index.php/zh/products/development-board.feed?type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php/zh/products/development-board.feed?type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/index.php/zh/2011-06-10-05-31-13/14-products/jazz-imx233.feed?type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php/zh/2011-06-10-05-31-13/14-products/jazz-imx233.feed?type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/index.php/zh/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php/zh/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/plugins/content/cdmagictabs/css/cdmagictabs.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/cdscriptegrator/libraries/jqueryui/gzip/css.php?files[]=css/redmond/jquery-ui-1.8.14.custom.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/sigplus/css/sigplus.min.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/sigplus/engines/fancybox/css/fancybox.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/emsym/css/emsym_template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/emsym/css/patch_msie.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/emsym/css/patch_mozilla.css" type="text/css" />
+  <link rel="stylesheet" href="/media/mod_languages/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.emsym.com/modules/mod_image_show_gk4/styles/gk_musicity/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.emsym.com/modules/mod_maximenu_CK/themes/default/css/moo_maximenuH_CK.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.emsym.com/modules/mod_maximenu_CK/assets/maximenu_CK.css" type="text/css" />
+  <style type="text/css">
+	#magictabs_gauhz .ui-tabs-nav li { float: left; }
+  </style>
+  <script src="/plugins/system/cdscriptegrator/libraries/jquery/gzip/js.php?files[]=js/jquery-1.6.1.min.js&amp;files[]=js/jquery-noconflict.js" type="text/javascript"></script>
+<script src="/plugins/system/cdscriptegrator/libraries/jqueryui/gzip/js.php?files[]=js/jquery-ui-1.8.14.custom.min.js" type="text/javascript"></script>
+<script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+      <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script src="/plugins/content/sigplus/js/jquery.include.min.js" type="text/javascript"></script>
+  <script src="/plugins/content/sigplus/js/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="/plugins/content/sigplus/js/jquery.easing.min.js" type="text/javascript"></script>
+  <script src="/plugins/content/sigplus/engines/fancybox/js/fancybox.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="http://www.emsym.com/modules/mod_image_show_gk4/styles/gk_musicity/engine.js" type="text/javascript"></script>
+  <script src="http://www.emsym.com/modules/mod_maximenu_CK/themes/default/js/maximenu_addon_CK.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		<!--
+		jQuery(function($) {
+			// create tabs instance
+			$('#magictabs_gauhz').tabs({ event: 'click' });
+		
+		});
+		//-->
+		if (typeof(__jQuery__) == "undefined") { var __jQuery__ = jQuery; }// <!--
+__jQuery__(document).ready(function() {
+__jQuery__("#sigplus_f62180d214ef325194a620571d7678a9 a[rel|='fancybox']").each(function(index, el) { __jQuery__(el).fancybox({}); });
+});
+// -->
+		window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+		window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});try {$Gavick;}catch(e){$Gavick = {};};$Gavick["gkIs-gk-is-27"] = { "anim_speed": 500, "anim_interval": 5000, "autoanim": 0, "anim_type": "opacity", "slide_links": 1 };<!--
+						window.addEvent('domready', function() {
+                        var sfEls = document.getElementById("navigator").getElementsByTagName("li");
+                        for (var i=0; i<sfEls.length; i++) {
+
+                            sfEls[i].onmouseover=function() {
+                                this.className+=" sfhover";
+                            }
+
+                            sfEls[i].onmouseout=function() {
+                                this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                            }
+                        }
+                        });
+						//-->
+  </script>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <!--[if lt IE 8]><link rel="stylesheet" href="/plugins/content/sigplus/css/sigplus.ie7.css" type="text/css" /><![endif]-->
+
+<!--
+  <script type="text/javascript" src="/caption.js"></script>
+  <script type="text/javascript" src="/modules/mod_gk_image_show/js/style1/engine.js"></script>
+  <script type="text/javascript" src="/modules/mod_gk_image_show/js/style1/engine_compress.js"></script>
+  <script type="text/javascript" src="/modules/mod_gk_image_show/js/style1/mootools.js"></script> -->
+<!--
+<link rel="stylesheet" href="/templates/emsym/css/template_1.css" type="text/css">
+  <link rel="stylesheet" href="/templates/emsym/css/style_002.css" type="text/css">
+  <link rel="stylesheet" href="/modules/mod_gk_image_show/css/style1/style1.css" type="text/css"> 
+<style type="text/css">
+/*#ja-header,#ja-mainnav,#ja-container,#ja-botsl,#ja-footer {margin: 0 auto;}*/
+/*#ja-wrapper {min-width: 100%;min-height: 100%;}*/
+</style>
+-->
+</head>
+
+<body 
+onLoad="addMapAreaByCss('#quick-menu .banneritem');"
+>
+<!-- BEGIN: HEADER -->
+<div id="headerwrap">
+	<div id="logo" title="EMSYM Corporation"></div>
+	<div id="logo-link"><span id="title">&nbsp;</span><span id="corner">&nbsp;</span></div>
+	<div id="search">
+		
+	</div>
+
+	<!-- BEGIN: MAIN NAVIGATION -->
+	       <!-- debut maximenu_CK, par cedric keiflin sur http://www.joomlack.fr -->
+        <div class="maximenuCKH" id="navigator">
+        <div class="maxiRoundedleft"></div>
+        <div class="maxiRoundedcenter">
+            <ul class="menu maximenuCK">
+        <li class="maximenuCK first item101 level0" style="z-index : 12000;"><a class="maximenuCK " href="http://www.emsym.com/" title=""><span class="titreCK">首页</span></a>
+		</li>
+<li class="maximenuCK first item102 active parent level0" style="z-index : 11999;"><a class="maximenuCK " href="/index.php/zh/products.html" title=""><span class="titreCK">产品</span></a>
+	<div class="floatCK" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuCK2 first " >
+	<ul class="maximenuCK2"><li class="maximenuCK first first item128 current active level1" style="z-index : 11998;"><a class="maximenuCK " href="/index.php/zh/products/development-board.html" title=""><span class="titreCK">开发板</span></a>
+		</li>
+<li class="maximenuCK item127 last level1" style="z-index : 11997;"><a class="maximenuCK " href="/index.php/zh/products/core-module.html" title=""><span class="titreCK">核心板</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuCK item103 level0" style="z-index : 11996;"><a class="maximenuCK " href="/index.php/zh/solution.html" title=""><span class="titreCK">解决方案</span></a>
+		</li>
+<li class="maximenuCK item104 level0" style="z-index : 11995;"><a class="maximenuCK " href="/index.php/zh/service.html" title=""><span class="titreCK">技术服务</span></a>
+		</li>
+<li class="maximenuCK item105 level0" style="z-index : 11994;"><a class="maximenuCK " href="/index.php/zh/documentation.html" title=""><span class="titreCK">文档教程</span></a>
+		</li>
+<li class="maximenuCK item125 level0" style="z-index : 11993;"><a class="maximenuCK " href="/index.php/zh/about.html" title=""><span class="titreCK">关于昂信</span></a></li>            </ul>
+        </div>
+        <div class="maxiRoundedright"></div>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+    <!-- fin maximenuCK -->
+
+        <!-- END: MAIN NAVIGATION -->
+
+
+<!-- BEGIN: LANGUAGE SELECTION -->
+	<div id="lang-selection">
+		<div class="mod-languages">
+	<ul class="lang-inline">
+			<li class="lang-active">
+		<a href="/index.php/zh/">
+					<img src="/media/mod_languages/images/zh.gif" alt="简体中文" title="简体中文" />						</a>
+			</li>
+		</ul>
+</div>
+
+	</div>
+<!-- END: LANGUAGE SELECTION -->
+<!--  -->
+	      <!--
+        <div id="ja-sitemap"> 
+             <ul class="ja-sitemap-font">
+ <li><a href="/index.php?option=com_content&view=article&id=14" title="EMSYM - Sitemap">*&nbsp;Sitemap</a></li>
+              <li><a href="/index.php?option=com_content&view=article&id=13" title="EMSYM - Contact Us">*&nbsp;Contact</a></li>
+	      <li><a href="#" title="EMSYM - Services&Help">*&nbsp;Help</a></li>
+	     </ul>
+       </div>  
+ -->
+<!--
+        <div id="ja-headerindex">
+	     <ul class="ja-index-font">
+-->
+<!--
+             </ul>
+	</div>
+-->
+</div><!-- END: HEADER -->
+
+
+	
+<!-- Begin: Content Page -->
+<div id= "content">
+	<div id="maincolumn_full">
+		
+		<div class="item-page">
+
+
+
+
+
+	
+
+	<div style="">
+  <div style="position:relative;margin: 0 0 30px;">
+    <div style="margin:10px 380px 0 0; float:left;">
+      <div style="font-size: 95px; font-family: Arial; font-weight: bold; width: 200px; float: left; padding: 22px 0pt 0pt 18px;">Jazz</div>
+      <div style="float: left; padding: 46px 0pt 0pt 39px;">
+        <div>
+          <img border="0" src="/images/jazz/icon/howtobuy.png" style="width: 128px;" />
+          <img border="0" src="/images/jazz/icon/qqadvice.png" style="width: 128px;" />
+        </div>        
+        <div style="margin: 10px 0pt 0pt 20px;">
+          <span style="font-size: 16px; font-family: simsun;">零售价<span style="color: #ea0000; font-size: 34px; font-weight: bold;">1299</span>元</span>
+          <br />
+          <span style="color: 8e8e8e; font-size: 13px; font-family: simsun;">（此价格不含税与运费）</span>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+      <div style="">
+        <ul style="color: #000000; font-size: 23px; line-height: 34px; font-family: simhei;margin: 8px 0 0 0;">
+          <li>在这个需求便携移动的时代，Jazz应运而生</li>
+          <li>锂电、WIFI以及丰富接口，令您的开发、学习拥有无限可能</li>
+        </ul>
+        <div style="padding:30px 0 0 0">
+          <div style="float:left;margin:0 35px">
+            <img src="/images/jazz/evaluate/customer.jpg" />
+          </div>
+          <div style="font-size:22px;color:#000000;">
+            中科大计算机系09级 木叶：<span style="font-family:Kaiti,Kaiti_GB2312;color:#005ab5">Jazz内置WIFI和锂电，我在自习室连上无线，用自己写的程序听豆瓣电台，大家都觉得这很酷！</span>
+          </div>
+          <div style="clear:both"></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin:10px 0 0 0;width:375px;position:absolute;right:0">
+      <img src="/images/1.png" />
+    </div>
+    <div style="clear:both"></div>
+  </div>
+</div>
+
+<div class="redmond">
+	<div id="magictabs_gauhz">
+		<ul>
+							<li><a href="#magictabs_gauhz_1">功能特色</a></li>
+							<li><a href="#magictabs_gauhz_2">技术规格</a></li>
+							<li><a href="#magictabs_gauhz_3">配件清单</a></li>
+							<li><a href="#magictabs_gauhz_4">图片展示</a></li>
+							<li><a href="#magictabs_gauhz_5">资料下载</a></li>
+					</ul>
+					<div id="magictabs_gauhz_1">
+				<div style="">
+  <div style="margin: 20px 0 0 0;">
+    <div style="width: 500px; float: left; margin: 0;"><img src="/images/jazz/li-battery_large.png" border="0" /></div>
+    <div style="padding: 26px 0 0 510px;">
+      <div style="margin: 30px 0 10px 0;font-size: 36px; font-family: Arial,SimHei; font-weight: bold;">ARM 移动开发 Step1</div>
+      <div style="margin: 0 0 10px 10px;font-size: 46px; font-family: Simhei; font-weight: bold;">标配锂电池</div>
+      <div style="margin: 40px 0 0 0;"><span style="font-size: 30px; font-family: Simsun;"> 锂电 &amp; 5V/DC双电源设计。<br />便携的开发板，秀自己的风采。 </span></div>
+    </div>
+    <div style="clear:both"></div></div>
+  <div style="margin: 20px 0 0 0;">
+    <div style="width: 500px;float:right;margin: 0 0 0 0;">
+      <img src="/images/jazz/wifi_large.png" border="0" />
+    </div>
+    <div style="padding: 28px 500px 0 0;">
+      <div style="margin: 30px 0 10px 0;font-size: 36px; font-family: Arial,SimHei; font-weight: bold;">ARM 移动开发 Step2</div>
+      <div style="margin: 0 0 10px 10px; font-size: 46px; font-family: Simhei; font-weight: bold;">WIFI网络</div>
+      <div style="margin: 40px 0 0 0; font-size: 28px; font-family: Simsun;">紧随时代，板载WIFI。<br />无线网络开发学习，就是这么简单。</div>
+    </div>
+
+    <div style="clear:both"></div></div>
+  <div style="margin: 20px 0 0 0;">
+    <div style="width: 500px; float: left; margin: 0;"><img src="/images/jazz/interface.png" border="0" /></div>
+    <div style="padding: 28px 0 0 510px;">
+      <div style="margin: 30px 0 10px 0;font-size: 36px; font-family: Arial,SimHei; font-weight: bold;">ARM 移动开发 Step3</div>
+      <div style="margin: 0 0 10px 10px;font-size: 46px; font-family: Simhei; font-weight: bold;">丰富接口</div>
+      <div style="margin: 40px 0 0 0;"><span style="font-size: 28px; font-family: Simsun;"> 接口资源丰富。<br />按键摇杆双手布局设计。 </span></div>
+    </div>
+    <div style="clear:both"></div></div>
+  <div style="margin: 20px 0 0 0;">
+    <div style="width: 500px;float:right;margin: 0 0 0 0;">
+      <img src="/images/jazz/coreboard_large.png" border="0" />
+    </div>
+    <div style="padding: 28px 500px 0 0;">
+      <div style="margin: 30px 0 10px 0;font-size: 36px; font-family: Arial,SimHei; font-weight: bold;">ARM 移动开发 Step4</div>
+      <div style="margin: 0 0 10px 10px;font-size: 46px; font-family: Simhei; font-weight: bold;">精致核心板</div>
+      <div style="margin: 40px 0 0 0; font-size: 28px; font-family: Simsun;">最小imx233,基于ARM926E核心，尺寸仅为44mm*37mm。<br />不失稳定性，便于工业研发。</div>
+    </div>
+
+    <div style="clear:both"></div></div>
+</div>											</div>
+					<div id="magictabs_gauhz_2">
+				<div style="margin:28px 0 0 20px">
+  <div>
+    <div style="width:50%;float:left;">
+
+      <img style="float:left;margin:0" src="/images/jazz/paremeter/233.png" />
+
+      <div style="padding: 48px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        Freescale i.MX233处理器ARM926E内核
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/ddr.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        128M DDR
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/flash.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        256M Flash
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/battery.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        锂电池
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0 0 0 0">
+        <img src="/images/jazz/paremeter/wifi.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        WIFI
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0 0 0 0">
+        <img src="/images/jazz/paremeter/rotarykey.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        旋转编码器
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/usb.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        USB HOST &amp; USB DEVICE
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/sd.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        MicroSD卡槽
+      </div>
+      <div style="clear:both"></div>
+    </div>
+
+    <div style="clear:both"></div>
+  </div>
+  <div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/joystick.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        摇杆开关
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="width:50%;float:left;">
+      <div style="float:left;margin:0">
+        <img src="/images/jazz/paremeter/screen.png" />
+      </div>
+      <div style="padding: 57px 9px 0 166px;color:#272727;font-family:Simhei;font-size: 23px;">
+        4.3寸触摸屏
+      </div>
+      <div style="clear:both"></div>
+    </div>
+
+    <div style="clear:both"></div>
+  </div>  
+  <div align="center" style="font-size:35px;font-family:Simhei;font-weight:bold;margin:60px 0 0 0">
+    Jazz规格参数表
+    <div style="font-size:20px">
+      (<span style="color:#ff0000">*</span> 代表不固定)
+    </div>
+  </div>
+  <div align="center" style="margin:20px 0 60px 0">
+    <table style="border-collapse: separate;" bordercolor="#d0d0d0" cellspacing="0" width="80%" aligh="center" border="1">
+      <tbody>
+        <tr style="font-size:20px;font-family:Kaiti,kaiti_GB2312;font-weight:bold;background-color:#d0d0d0">
+          <th>
+            <div align="center">名称</div>
+          </th>
+          <th>
+            <div align="center">规格</div>
+          </th>          
+        </tr>
+        <tr>
+          <td>
+            <div align="center">处理器</div>
+          </td>
+          <td>
+            <div>Freescale i.MX233处理器，ARM926EJ-S内核，主频454MHz</div>
+          </td>
+           
+        </tr>
+        <tr>
+          <td>
+            <div align="center">内存</div>
+          </td>
+          <td>
+            <div>标配128兆字节DDR内存</div>
+          </td>
+
+        </tr>
+        <tr>
+          <td>
+            <div align="center">Flash</div>
+          </td>
+          <td>
+            <div>256M NAND Flash</div>
+          </td>
+
+        </tr>
+        <tr>
+          <td>
+            <div align="center">时钟</div>
+          </td>
+          <td>
+            <div>核心板采用24MHz、32.768MHz时钟源；底板采用12MHz、40MHz时钟源</div>
+          </td>
+        </tr>        
+        <tr>
+          <td>
+            <div align="center">锂电池</div>
+          </td>
+          <td>
+            <div>标配3.7V 2200mAh锂电池，更换便捷</div>
+          </td>
+           
+        </tr>
+        <tr>
+          <td>
+            <div align="center">DC插座</div>
+          </td>
+          <td>
+            <div>支持5V电压供电</div>
+          </td>
+           
+        </tr>        
+        <tr>
+          <td>
+            <div align="center">WIFI</div>
+          </td>
+          <td>
+            <div>使用REALTEKRTL8188CUS芯片，稳定高效</div>
+          </td>
+           
+        </tr>
+        <tr>
+          <td>
+            <div align="center">触摸屏</div>
+          </td>
+          <td>
+            <div>标配4.3寸触摸屏，24bit,4线触摸</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">旋转编码器</div>
+          </td>
+          <td>
+            <div> </div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">USB</div>
+          </td>
+          <td>
+            <div>一个miniUSB，支持OTG功能；一个USB-A接口</div>
+          </td>         
+        </tr>
+        <tr>
+          <td>
+            <div align="center">SD卡槽</div>
+          </td>
+          <td>
+            <div>一个MicroSD卡卡槽，手机内存卡也有新用处</div>
+          </td>
+           
+        </tr>      
+        <tr>
+          <td>
+            <div align="center">MIC</div>
+          </td>
+          <td>
+            <div>板载MIC，录音清晰</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">红外接收器</div>
+          </td>
+          <td>
+            <div>一个红外接收器</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">用户按键</div>
+          </td>
+          <td>
+            <div>四个独立按键</div>
+          </td>
+           
+        </tr>        
+        <tr>
+          <td>
+            <div align="center">多功能按键</div>
+          </td>
+          <td>
+            <div>一个多功能按键，POWERON</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">摇杆开关</div>
+          </td>
+          <td>
+            <div>一个摇杆开关，作为模拟按键</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">耳机接口</div>
+          </td>
+          <td>
+            <div>一个3.5mm耳机接口</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">音频输入接口</div>
+          </td>
+          <td>
+            <div>一个3.5mm音频输入接口</div>
+          </td>
+           
+        </tr>  
+        <tr>
+          <td>
+            <div align="center">SPDIF</div>
+          </td>
+          <td>
+            <div>一个数字音频接口</div>
+          </td>
+           
+        </tr>        
+        <tr>
+          <td>
+            <div align="center">TV-OUT接口</div>
+          </td>
+          <td>
+            <div>一个TV-OUT视频输出接口</div>
+          </td>
+           
+        </tr>    
+        <tr>
+          <td>
+            <div align="center">拨码开关</div>
+          </td>
+          <td>
+            <div>系统启动模式设置开关，采用四位拨码开关</div>
+          </td>
+           
+        </tr>                                                                                                    
+      </tbody>
+    </table>
+  </div>
+</div>											</div>
+					<div id="magictabs_gauhz_3">
+				<div style="margin:50px 0 0 0">
+  <div align="center">
+    <img src="/images/jazz/package/package.jpg" width="80%" />
+  </div>
+  <div style="background-color:#acd6ff;width: 690px;height:136px;border:1px solid #66b3ff;margin: 20px 0 0 88px;">
+    <div style="margin:0 0 0 5px;line-height:34px;font-weight:bold">产品清单</div>   
+      <table style="border-collapse:separate; width: 99%; " bordercolor="#66b3ff" cellspacing="0" aligh="center" bgcolor="#ffffff" border="1" align="center">
+        <tbody style="line-height:28px">
+          <tr>
+            <td>
+              一块已经测试好的Jazz开发板
+            </td>
+            <td>
+              一块4.3寸真彩触摸屏
+            </td>
+          </tr>
+          <tr>
+            <td>
+              一个锂电池
+            </td>
+            <td>
+              一条USB线
+            </td>
+          </tr>
+          <tr>
+            <td>
+              一个5V直流电源
+            </td>
+            <td> 
+                         
+            </td>
+          </tr>
+        </tbody>
+      </table> 
+  </div>
+  <div style="background-color:#acd6ff;width: 690px;height:72px;border:1px solid #66b3ff;margin: 20px 0 0 88px;">
+    <div style="margin:0 0 0 5px;line-height:34px;font-weight:bold">可选配件</div> 
+    <table style="border-collapse:separate; width: 99%; " bordercolor="#66b3ff" cellspacing="0" aligh="center" bgcolor="#ffffff" border="1" align="center">
+        <tbody style="line-height:28px">
+          <tr>
+            <td>
+              Jazz调试板
+            </td>
+            <td>
+              多功能仿真机
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div style="margin:20px 0 0 0" align="center">
+    <div style="font-weight:bold;font-size:28px;font-family:Microsoft YaHei,Simhei;margin: 0 548px 0 0;">
+      Jazz调试板
+    </div>
+    <img src="/images/jazz/package/debugboard.jpg" width="80%" />
+  </div>
+  <div style="font-size:20px;font-family:Microsoft YaHei,Simhei;margin: 10px 85px 0 85px;">
+    <p>Jazz调试板板载百兆以太网接口、RS232串口以及JTAG接口。用于底层开发更为高效，推荐使用！</p>
+  </div> 
+  <div style="margin:20px 0 0 0" align="center">
+    <div style="font-weight:bold;font-size:28px;font-family:Microsoft YaHei,Simhei;margin: 0 520px 0 0;">
+      多功能仿真机
+    </div>
+    <img src="/images/jazz/package/iceboard.jpg" width="80%" />
+  </div>
+  <div style="font-size:20px;font-family:Microsoft YaHei,Simhei;margin: 10px 85px 0 85px;">
+    <p>我们推荐嵌入式DIY爱好者设计的ICEμ仿真机，设有JTAG、串口以及MiniUSB。稳定性好，性价比高。</p>
+  </div>   
+</div>											</div>
+					<div id="magictabs_gauhz_4">
+				<div id="sigplus_f62180d214ef325194a620571d7678a9" class="sigplus-gallery sigplus-center"><ul><li><a href="/images/jazz/gallery/dscf9167.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0000" width="200" height="150" src="/cache/preview/89afb26d6e23fdeb193bf18595a7fe44.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9168.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0001" width="200" height="150" src="/cache/preview/c9bd48279f941e049b0da201b2b3bb1f.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9202.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0002" width="200" height="150" src="/cache/preview/acfa2d5b303ea695ba2349db2d553ea6.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9203.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0003" width="200" height="150" src="/cache/preview/5515d0d0ebeac4ee725b0d038f471031.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9217.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0004" width="200" height="150" src="/cache/preview/7d3e031e4fea43acdfd161fc383038fc.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9221.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0005" width="200" height="150" src="/cache/preview/1999e0d6652cc60f2eed7e01b234d804.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9222.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0006" width="200" height="150" src="/cache/preview/0cd52a8f01c0080fc645151bf06edd12.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9225.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0007" width="200" height="150" src="/cache/preview/53932ce56e742e80c71329cfc3efd086.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9227.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0008" width="200" height="150" src="/cache/preview/56fef1d163aa059a9c5600747f57c069.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9240.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0009" width="200" height="150" src="/cache/preview/cef7334ca63117b53ff927a63f34b5f1.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9251.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0010" width="200" height="150" src="/cache/preview/bacfbfb049fe12020897ee07b2efe1b9.png" alt=""/></a></li><li><a href="/images/jazz/gallery/dscf9252.png" rel="fancybox-sigplus_f62180d214ef325194a620571d7678a9"><img id="sigplus_f62180d214ef325194a620571d7678a9_img0011" width="200" height="150" src="/cache/preview/4f95e89efd68232231873b131581b512.png" alt=""/></a></li></ul></div>
+
+											</div>
+					<div id="magictabs_gauhz_5">
+				<div>
+<div style="background-color: #acd6ff; width: 730px; height: 223px; border: 1px solid #66b3ff; margin: 20px 0 0 67px;">
+<div style="background-color: #ffffff; border: 1px solid #66b3ff; margin: 2px 2px 0 2px;">
+<div style="font-size: 32px; font-family: Microsoft YaHei,Simhei,Arial; font-weight: bold; float: left; margin: 32px 10px 10px 31px;">资料下载请参考EMSYM下属网站</div>
+  <div style="margin: 0 20px 0 534px;"><a href="http://wiki.emsym.com/wiki/Jazz"><img src="/images/jazz/wiki_logo.png" border="0" /></a></div>
+<div style="font-size: 20px; font-family: Microsoft YaHei,Simhei; margin: 10px 10px 0 10px;">
+  <p><a href="http://wiki.emsym.com/wiki/Jazz"><span style="color:#003d79">嵌入式大讲堂</span></a>是内容开放的嵌入式系统学习网站。目前包含一系列嵌入式基础课程、以及处理器和开发板的使用文档。它基于维基百科平台，任何人都能够编辑它的内容。</p>
+</div>
+</div>
+</div>
+<div style="background-color: #acd6ff; width: 730px; height: 199px; border: 1px solid #66b3ff; margin: 20px 0 0 67px;">
+<div style="background-color: #ffffff; border: 1px solid #66b3ff; margin: 2px 2px 0 2px;">
+<div style="font-size: 32px; font-family: Microsoft YaHei,Simhei,Arial; font-weight: bold; float: left; margin: 32px 10px 10px 31px;">技术讨论请前往EMSYM合作社区</div>
+<div style="margin: 20px 0 0 529px;"><a href="http://www.embedded-diy.com"><img src="/images/jazz/bbs_logo.png" border="0" width="160px" /></a></div>
+<div style="font-size: 20px; font-family: Microsoft YaHei,Simhei; margin: 10px 10px 0 10px;">
+  <p><a href="http://www.embedded-diy.com/forum.php?mod=forumdisplay&amp;fid=24&amp;filter=typeid&amp;typeid=28"><span style="color:#003d79">嵌入式DIY爱好者</span></a>社区是嵌入式工程师技术分享、生活畅谈之处。开设有“组团DIY”、“电子技术交流”、“嵌入式操作系统”等专区，常有嵌入式达人出没其中。</p>
+</div>
+</div>
+</div>
+</div>											</div>
+			</div>
+</div>
+ 	
+	</div>
+	</div>
+</div>
+<!-- End: Content Page -->
+
+<!-- BEGIN: FOOTER -->
+<div id="footerwrap">
+	<div id="footer-left">
+		<div id="footer-border">
+			
+		</div>
+        </div>
+        <div id="footer-right" class="clearfix">
+                <div id="footnav">
+			
+<ul class="menu">
+<li id="item-110"><a href="/index.php/zh/2011-06-10-05-30-25.html" >加入我们</a></li><li id="item-111"><a href="/index.php/zh/2011-06-10-05-30-42.html" >联系我们</a></li><li id="item-112"><a href="/index.php/zh/2011-06-10-05-31-13.html" >关于昂信</a></li></ul>
+
+			<div id="copyright">
+				2009-2011 &copy; 苏州昂信科技有限公司 EMSYM Corporation <br/> 
+				做最开放的嵌入式系统开发平台！<br/>
+				<a href="http://www.miibeian.gov.cn/">苏ICP备09077265号</a>			 
+				Based on <a href="http://www.joomla.org/">Joomla!</a>
+                                <script src="http://s9.cnzz.com/stat.php?id=2051013&web_id=2051013&show=pic"
+                                        language="JavaScript"></script>
+			</div>
+                </div>
+        </div>
+</div>
+<!-- END: FOOTER -->
+</body>
+</html>
+
